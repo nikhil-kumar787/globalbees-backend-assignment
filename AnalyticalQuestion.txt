@@ -1,0 +1,44 @@
+
+
+Question 2
+There is a Singles table tennis tournament, a total of 32 players participated in the tournament. If a player is eliminated as soon as the player loses a match. How many matches are required to declare the winner?
+
+A-Lets say we first have 16 matches, it will eliminate 16 persons.
+Next we have 8 matches it will further eliminate 8 persons, leaving with us 8.
+Next we again have 4 matches, leaving 4 persons.
+Next 2 matches, leaving two finalists, and 1 match in finalist will decide the winner.
+
+Thus a total of 16+8+4+2+1 = 31 matches will be needed to declare the winner.
+
+
+Question 3
+You have 8 balls all look identical (in shape, color etc.). All of them have same weight except one defective ball which is heavier than others. You can use a two sided balance system (not the electronic one). Find the minimum no. of measures required to separate the defective ball.
+A- Divide 8 balls into groups of 3, 3 and 2.
+
+First weigh :
+Weigh the two groups of 3 ball, now there are two possibilities
+a) They are balanced (all 6 balls are of equal weight)
+b) One side is heavier then the other.
+
+case (a) :
+The group of 2 has the defective ball. Weigh them with one on each side of balancing machine. The side which has more weigh has the heavier/defective ball.
+
+case (b) :
+We got the three balls of the side which is heavier. Now take any two balls and weigh them, then again there are two cases.
+(i) They both are of equal weight.
+(ii) One is heavier than the other.
+
+for case (b)(i) :
+The third ball is heavier/defective than all other balls
+
+for case (b)(ii) :
+The heavier ball is defective.
+
+Question 4
+ Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?
+A- 14
+
+Question 5
+A is two years older than B who is twice as old as C. If the total of the ages of A, B and C be 27, the how old is B?
+A - 10
+

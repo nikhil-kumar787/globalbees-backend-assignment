@@ -1,0 +1,61 @@
+### **Question 1**
+
+- Write a function that finds all positive numbers in the integer array that have their opposites in it as well.
+    
+    Eg:  [-9, 4, -10, 15, 19, -8, -2, 3, 3, 9, -15, 10, -20]
+    
+    Output : [-15, 15], [-10, 10], [-9, 9]
+
+function positiveNumbers(arr,n)
+    {
+        let  v = [];
+         
+        for (let i = 0; i < n; i++)
+  
+            for (let j = i + 1; j < n; j++)
+  
+                if (Math.abs(arr[i]) ==
+                                  Math.abs(arr[j]))
+                    v.push(Math.abs(arr[i]));
+  
+  
+        
+        if (v.length == 0)
+            return;   
+      
+        v.sort(function(a, b){return a-b;});
+  
+        for (let i = 0; i < v.length; i++)
+            console.log(-v[i] + " " +
+                                      v[i]);
+    }
+
+
+
+### **Question 2**
+
+- Let’s assume that M is a very large number. Find the number of ways in which you can traverse M meters by doing jumps of 6, 7, 8, 9, or 10 meter lengths.
+- What is the time complexity of that algorithm?
+
+    function findNumber(arr, n)
+{
+ 
+ 
+    if (n == 1)
+        return 0;
+
+    let res = Number.MAX_VALUE;
+    for (let i = n - 2; i >= 0; i--) {
+        if (i + arr[i] >= n - 1) {
+            let sub_res = minJumps(arr, i + 1);
+            if (sub_res != Number.MAX_VALUE)
+                res = Math.min(res, sub_res + 1);
+        }
+    }
+ 
+    return res;
+}
+Time complexity: O(n^n)
+
+
+ 

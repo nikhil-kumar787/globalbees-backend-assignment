@@ -1,0 +1,35 @@
+1.What is the Time Complexity of reading an element from array.?
+A-O(n) means that the duration grows as the array grows: finding a specific item in an array takes twice the time if the array is twice the size. O(n²) means that the duration grows as the square of the array growth: that's the worst-case scenario of a quicksort.
+
+2. What is  the time Complexity for inserting or deleting a element in the middle of array?
+A- To traverse the list to the location of deletion/insertion, which takes O(n) time. The deletion cost is O(log n) for the minimum or maximum, O(n) for an arbitrary element. 
+
+3. 3. If we have a random linked list. which one is the best algorithm to sort the linked list
+    - What is the Time complexity of that algorithm
+A- Merge sort is often preferred for sorting a linked list. The time complexity of MergeSort is O(n*Log n)
+
+4. What if there is no data structure available to you like arrays and if you have to create a queue then in this situation how many stacks are needed?
+A- A queue can be implemented using two stacks
+
+5.What happens when we add a duplicate key in hashmap?
+A- If you try to insert the duplicate key, it will replace the element of the corresponding key. HashMap is similar to HashTable, but it is unsynchronized. It allows to store the null keys as well, but there should be only one null key object and there can be any number of null values.
+
+6. Can we delete the middle element from the odd length stack?
+A- 
+An element can be removed from a stack using the java. ... Stack. pop() method. This method requires no parameters and it removes the element at the top of the stack.
+
+7. How can we limit the character of a decimal number upto 2 without using any libraries?
+A- We can convert double or float to BigDecimal and use setScale() method to round double/float to 2 decimal places.
+
+8. Can we create a circular linked list with a doubly linked list? If yes, how can we create it?
+A- We can create a class for a doubly circular linked list. Inside this class, there will be a static class to represent the node. Each node will contain two pointers – previous and next and a data item.
+
+9. Which data structure is used in the recursive function to store the return address of the recursive function.
+A- Many programming languages implement recursion by means of stacks. 
+
+10. Why does the overflow happen in hashing?
+A- An overflow occurs when the home bucket for a new pair (key, element) is full. We may handle overflows by: ƒ Search the hash table in some systematic fashion for a bucket that is not full.
+
+11. What is the time complexity of nested for loop?
+A- The time complexity of nested loops is equal to the number of times the innermost statement is executed. In the above nested-loop example, the inner loop is running n times for every iteration of the outer loop.
+
